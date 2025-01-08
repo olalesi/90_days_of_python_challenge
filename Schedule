@@ -1,0 +1,316 @@
+90 Days of python Challenge
+study python at least 2 hours a day
+Days 1-10: Python Basics
+Goal: Learn Python fundamentals and basic scripting techniques.
+--------------------------------------------------------------------------------------------------------------
+Day 1: Python Introduction and Setup
+- Topics:
+- Install Python, set up a development environment (e.g., VSCode, PyCharm).
+- Introduction to Python syntax: print statements, basic data types (strings, integers, floats, booleans).
+- Project:
+- Write a simple Python script that prints "Hello, World!" and the results of basic arithmetic (e.g., 2 +
+2, 5 * 3).
+Day 2: Variables and Data Types
+- Topics:
+- Learn about variables and different data types: int, str, float, bool.
+- Type casting: converting between types.
+- Project:
+- Create a program that takes user input for their name and age, then prints a greeting with their name
+and calculates the year they were born.
+Day 3: Conditional Statements
+- Topics:
+- Learn about if, else, and elif statements.
+- Logical operators: and, or, not.
+- Project:
+- Build a simple age checker: Ask the user for their age and tell them if they are eligible for certain
+services (e.g., "You are eligible to vote" or "You are too young to vote").
+Day 4: Loops
+- Topics:
+- Learn about for and while loops.
+- Iterating through lists and dictionaries.
+- Project:
+- Create a simple "countdown" program that counts down from 10 to 1 using a while loop.
+Day 5: Functions
+- Topics:
+- Learn how to define functions using def.
+- Understand function arguments, return values, and scope.
+- Project:
+- Write a function that takes a number as input and returns the factorial of that number.
+Day 6: Lists and Tuples
+- Topics:
+- Learn about lists and tuples: how to create, access, modify, and delete elements.
+- List methods: append(), remove(), pop().
+- Project:
+- Create a program that takes a list of numbers and prints the sum and average.
+Day 7: Dictionaries and Sets
+- Topics:
+- Learn about dictionaries (key-value pairs) and sets (unordered collections).
+- Dictionary methods: get(), keys(), values().
+- Project:
+- Create a program that stores user information (name, age) in a dictionary and allows the user to
+retrieve it by providing the name.
+Day 8: File I/O
+- Topics:
+- Learn how to read and write files in Python using open(), read(), write().
+- Working with text and CSV files.
+- Project:
+- Write a script that reads a text file and counts how many lines and words are in the file.
+Day 9: Error Handling
+- Topics:
+- Learn how to use try, except, and finally for error handling.
+- Handling specific exceptions like ValueError, FileNotFoundError.
+- Project:
+- Create a program that takes user input for a number and catches errors if the user inputs something
+invalid (non-integer).
+Day 10: Introduction to Libraries
+- Topics:
+- Introduction to Python libraries: how to install and use them (using pip).
+- Using built-in libraries like os, sys, math.
+- Project:
+- Write a Python script that calculates the square root of a number using the math library.
+----------------------------------------------------------------------------------------------------------------
+Days 11-21: Intermediate Python Concepts
+Goal: Understand intermediate Python topics, including working with external libraries, regular
+expressions, and networking basics
+------------------------------------------------------------------------------------------------------------------
+Day 11: Regular Expressions
+- Topics:
+- Introduction to the re library.
+- Basic regex syntax: \d, \w, \s, +, *, ?.
+- Project:
+- Build a program that validates email addresses using regular expressions.
+Day 12: Working with JSON
+- Topics:
+- Learn how to parse and create JSON data using Python’s json library.
+- Understanding JSON format and how it is used in APIs.
+- Project:
+- Create a script that reads a JSON file and prints out specific values based on user input.
+Day 13: Using External Libraries: Requests
+- Topics:
+- Learn how to make HTTP requests with the requests library.
+- Understanding HTTP methods: GET, POST.
+- Project:
+- Create a Python script that fetches data from a public API (e.g., OpenWeatherMap) and displays the
+weather.
+Day 14: Working with APIs
+- Topics:
+- Learn how to send requests and handle JSON responses from APIs.
+- Authentication methods for APIs (e.g., using API keys).
+- Project:
+- Write a program that interacts with the GitHub API to fetch user data (like profile information).
+Day 15: Introduction to Networking
+- Topics:
+- Introduction to sockets and networking.
+- Understanding IP addresses, ports, and how to connect to a server.
+- Project:
+- Write a simple TCP client-server application using Python’s socket module.
+Day 16: Web Scraping with BeautifulSoup
+- Topics:
+- Introduction to web scraping using BeautifulSoup and requests.
+- Parsing HTML and extracting data.
+- Project:
+- Create a program that scrapes a website (e.g., news headlines from a news site) and displays the
+results.
+Day 17: HTML and HTTP Basics
+- Topics:
+- Understanding HTML structure and HTTP request/response cycle.
+- Inspecting web traffic using browser dev tools.
+- Project:
+- Build a simple HTTP request handler in Python to fetch and display the content of a webpage.
+Day 18: Introduction to Cryptography
+- Topics:
+- Introduction to hashing with the hashlib library.
+- Hashing algorithms: MD5, SHA1, SHA256.
+- Project:
+- Write a Python script that hashes a user’s password and compares it to a known hash.
+Day 19-20: Introduction to Encryption
+- Topics:
+- Learn basic encryption concepts using the cryptography library.
+- Symmetric vs. asymmetric encryption.
+- Project:
+- Create a simple encryption/decryption tool using the cryptography library (e.g., AES encryption).
+Day 21: Automating Tasks with Python
+- Topics:
+- Learn how to automate tasks using Python scripts.
+- Use os and shutil for file manipulation.
+- Project:
+- Write a Python script that automatically organizes files in a folder by extension (e.g., move .txt files to
+a "TextFiles" folder).
+--------------------------------------------------------------------------------------------------------------------
+Days 22-42: Cybersecurity Scripting
+Goal: Learn how to build basic security tools and scripts.
+-------------------------------------------------------------------------------------------------------------------
+Day 22-23: Building a Simple Port Scanner
+- Topics:
+- Learn how to scan open ports on a target machine using socket module.
+- Project:
+- Build a basic port scanner that checks if a port is open on a target server.
+Day 24-25: Brute Force Password Cracking
+- Topics:
+- Learn how brute force attacks work.
+- Introduction to itertools for generating combinations.
+- Project:
+- Write a script that attempts to brute-force a password using a wordlist and hashes it with hashlib.
+Day 26-27: HTTP Header Analysis
+- Topics:
+- Understand HTTP headers and how they can reveal vulnerabilities.
+- Project:
+- Write a script that fetches HTTP headers from a target URL and checks for common security
+misconfigurations (e.g., missing Strict-Transport-Security header).
+Day 28-30: SQL Injection Simulation
+- Topics:
+- Understand how SQL injection works and how it can be exploited.
+- Project:
+- Build a simple script to test SQL injection vulnerabilities in a vulnerable web application (e.g., by
+injecting common payloads).
+Day 31-33: Cross-Site Scripting (XSS) Basics
+- Topics:
+- Learn about XSS attacks and how they occur in web applications.
+- Project:
+- Create a script that detects potential XSS vulnerabilities in a simple web application by checking for
+unsanitized user input.
+Day 34-35: Building a Reverse Shell
+- Topics:
+- Project:
+execution.
+- Learn how attackers use reverse shells to gain control of remote systems.
+- Write a basic reverse shell in Python that connects to a remote server and allows command
+Day 36-37: Network Sniffing with Scapy
+- Topics:
+- Project:
+network.
+- Learn how to capture and analyze network packets using the scapy library.
+- Write a Python script that captures and displays the details of network packets on your local
+Day 38-40: Basic Encryption Cracking
+- Topics:
+- Project:
+combinations.
+- Understand how weak encryption algorithms can be cracked (e.g., brute-force AES).
+- Write a script that attempts to break weak encryption algorithms by trying different key
+Day 41-42: Building a Simple IDS (Intrusion Detection System)
+- Topics:
+- Learn how intrusion detection systems work.
+- Project:
+- Build a basic IDS that scans logs for failed login attempts and potential SQL injection patterns.
+----------------------------------------------------------------------------------------------------------------
+Days 43-60: Advanced Python for Cybersecurity
+Goal: Build on Python skills to create more advanced security tools, focusing on offensive and
+defensive tools.
+-----------------------------------------------------------------------------------------------------------------
+Day 43-46: Working with Sockets
+- Topics:
+- Learn how to create both TCP and UDP clients and servers.
+- Introduction to socket programming for network communication.
+- Project:
+- Build a simple chat application using sockets. This will give you a basic understanding of
+networking principles.
+Day 47-49: Building a Simple Web Scraper for Security Testing
+- Topics:
+- Learn how to scrape data from websites for security testing purposes.
+- Use requests and BeautifulSoup to gather publicly available information.
+- Project:
+- Build a scraper that collects metadata from websites to identify potential attack surfaces (e.g.,
+outdated software versions).
+Day 50-51-: File Upload Vulnerabilities
+- Topics:
+- Understand common file upload vulnerabilities and how attackers exploit them.
+- Project:
+- Write a script that simulates a file upload vulnerability by allowing an attacker to upload a malicious
+file (e.g., PHP shell or reverse shell).
+Day 52-53: Parsing robots.txt
+- Topics:
+- Learn about robots.txt in website and how to access them
+- Project:
+- Write a Python script that retrieves and analyzes robots.txt of a website and save the results to a file
+Day 54-55: DNS and DNSLookup
+- Topics:
+- Learn about dnspython in python.
+- Project:
+- Create a DNS lookup tool.
+Day 56-57: HTTP Request Smuggling
+- Topics:
+- Understand HTTP request smuggling and its implications.
+- Project:
+- Build a script that attempts to exploit HTTP request smuggling by manipulating HTTP headers in
+requests to bypass security defenses.
+Day 58-59: HTTP Response Splitting
+- Topics:
+- Project:
+responses.
+- Understand HTTP response splitting and how it can lead to security issues like session fixation.
+- Write a script that simulates HTTP response splitting by injecting malicious headers into HTTP
+Day 60-62: Building a Basic Firewall
+- Topics:
+- Learn how firewalls work and how to implement simple filtering rules.
+- Project:
+- Write a basic firewall that filters incoming connections based on IP address and port.
+Day 63-65: Building a Keylogger
+- Topics:
+- Project:
+- Learn how keyloggers work and how they can be implemented in Python for educational purposes.
+- Build a simple keylogger using the pynput library to capture keystrokes and store them in a log file.
+Day 66-68: Intro to Reverse Engineering
+- Topics:
+- Basic concepts of reverse engineering and decompiling binaries.
+- Using tools like pyinstxtractor to extract Python bytecode from executables.
+- Project:
+- Extract the contents of a .exe file made with Python using pyinstxtractor and analyze its contents.
+Day 69-70: Network Scanning with Nmap
+- Topics:
+- Project:
+- Learn how to use Nmap for network scanning and discovering open ports.
+- Write a Python script that automates Nmap scans and stores the results in a file or database.
+Day 71-73: Vulnerability Scanning with Python
+- Topics:
+- Learn how to use Python to scan for vulnerabilities.
+- Use libraries like requests and BeautifulSoup to perform security audits on web applications.
+- Project:
+- Build a vulnerability scanner that checks for common web vulnerabilities (e.g., XSS, SQLi, open
+ports).
+Day 74: Building a Password Strength Checker
+- Topics:
+- Learn how to evaluate password strength and detect weak passwords.
+- Project:
+- Write a Python script that checks the strength of a password by evaluating its length, use of special
+characters, and common patterns.
+Day 75-76: Building a Phishing Email Generator
+- Topics:
+- Project:
+legitimate services.
+- Learn how phishing attacks work and how they are executed.
+- Build a simple Python script to generate phishing emails (for educational purposes only) that mimic
+Day 77-78: Building a Simple DDoS Tool
+- Topics:
+- Project:
+- Understand Distributed Denial-of-Service (DDoS) attacks.
+- Write a basic script that simulates a DDoS attack by sending repeated HTTP requests to a target.
+Day 79-80: Building a RAT (Remote Access Trojan)
+- Topics:
+- Learn how Remote Access Trojans work and how attackers use them to control compromised
+systems.
+- Project:
+- Build a basic RAT in Python that connects to a remote server and allows the attacker to execute
+commands on the victim's machine (for educational purposes only).
+Day 81-82: Introduction to Steganography
+- Topics:
+- Learn the basics of steganography and how hidden data is embedded within other files.
+- Project:
+- Write a Python script that hides text within an image using steganography techniques.
+Day 83-85: Building a Simple Honeypot
+- Topics:
+- Understand how honeypots work and how they are used to detect attackers.
+- Project:
+- Build a simple honeypot in Python that simulates a vulnerable service and logs all incoming attempts
+to exploit it.
+Day 86-88: Building a Keylogger with GUI
+- Topics:
+- Project:
+- Create a more advanced keylogger with a graphical user interface.
+- Build a Python keylogger that logs keystrokes and shows the captured data in a simple GUI.
+Day 89-90: Implementing a Simple Ransomware Simulation
+- Topics:
+- Learn about ransomware and how it encrypts files.
+- Project:
+- Write a basic ransomware simulator that encrypts files in a specific directory and generates a ransom
+note (for educational purposes only).
+-----------------------------------------------------------------------------------------------------------------------
