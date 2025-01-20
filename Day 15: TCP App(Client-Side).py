@@ -7,7 +7,7 @@ def start_client():
     
     # Connect the client to the server's IP address and port
     host = "127.0.0.1"  # Localhost (same machine)
-    port = 65432         # Port number (must match server port)
+    port = 9999         # Port number (must match server port)
     
     client_socket.connect((host, port))
     
