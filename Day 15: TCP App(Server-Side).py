@@ -7,7 +7,7 @@ def start_server():
     
     # Bind the socket to the address and port
     host = "127.0.0.1"  # Localhost
-    port = 65432         # Non-privileged port
+    port = 9999         # Non-privileged port
     server_socket.bind((host, port))
     
     # Enable the server to listen for connections (max 1 connection at a time)
