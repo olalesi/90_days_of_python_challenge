@@ -274,11 +274,8 @@ Day 74: Building a Password Strength Checker
 - Write a Python script that checks the strength of a password by evaluating its length, use of special
 characters, and common patterns.
 Day 75-76: Building a Phishing Email Generator
-- Topics:
-- Project:
-legitimate services.
-- Learn how phishing attacks work and how they are executed.
-- Build a simple Python script to generate phishing emails (for educational purposes only) that mimic
+- Topics: Learn how phishing attacks work and how they are executed.
+- Project: Build a simple Python script to generate phishing emails (for educational purposes only) that mimic legitimate services.
 Day 77-78: Building a Simple DDoS Tool
 - Topics:
 - Project:
